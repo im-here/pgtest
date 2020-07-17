@@ -15,3 +15,5 @@ CREATE TABLE IF NOT EXISTS mall.goods(
 CREATE INDEX IF NOT EXISTS goods_recommend_index ON mall.goods (recommend);
 
 -- test h1
+
+-- test h2
