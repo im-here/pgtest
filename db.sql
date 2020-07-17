@@ -13,3 +13,5 @@ CREATE TABLE IF NOT EXISTS mall.goods(
     time TIMESTAMP WITH TIME ZONE DEFAULT LOCALTIMESTAMP(0)
 );
 CREATE INDEX IF NOT EXISTS goods_recommend_index ON mall.goods (recommend);
+
+-- test h1
